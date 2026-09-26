@@ -18,17 +18,17 @@ namespace PMEternalFishTraps
         {
             Log = Logger; // Idk why but when I couldn't get things to work, putting this in made it work. Load-bearing coconut DO NOT REMOVE . .  I think this is supposed to 
                           //equate the BepInEx tool to the word Log??
-            Log.LogInfo($"{ModName} v{ModVersion} initializing. . .");
+            Log.LogInfo($"{modName} v{modVersion} initializing. . .");
 
-            Harmony harmony = new Harmony(ModGUID);
+            Harmony harmony = new Harmony(modGUID);
             try // Using a try-catch felt better to me and my eyes after having all those 'if's down there
             {
                 harmony.PatchAll();
-                Log.LogInfo($"{ModName} loaded :3");
+                Log.LogInfo($"{modName} loaded :3");
             }
             catch (Exception ex)
             {
-                Log.LogError($"Failed to patch {ModName}, sorry :( " + ex.Message); // If the mod DOES mess up this should apologize to you and give you a possible reason why
+                Log.LogError($"Failed to patch {modName}, sorry :( " + ex.Message); // If the mod DOES mess up this should apologize to you and give you a possible reason why
             }
         }
     }

@@ -1,4 +1,4 @@
-# EternalFishingTraps-PM
+# EternalFishingTraps-PM | [Latest Version](https://github.com/PlanckMosh/PM-EternalFishingTraps/releases/latest/download/EternalFishingTraps-PM.dll)
 
 My very first mod: A way to keep your Fish Traps from breaking in Traveller's rest v0.7.6.12.0
 

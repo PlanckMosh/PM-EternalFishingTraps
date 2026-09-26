@@ -18,3 +18,6 @@ if you wanted to take a crack at making a ver. of it in the future, or if I don'
 
 Modding this in should be as simple as downloading a release .dll and putting it in your BepInEx's
 'plugins' folder. There's no configs because I didn't really see a reason. Don't want it? Remove it :)
+
+If there's anything you think could help me do this kind of thing better/faster/smoother, let me know
+because I'm open to suggestions and do NOT wanna spend 10 hours making something like this again LMAO
